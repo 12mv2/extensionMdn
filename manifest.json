@@ -10,7 +10,9 @@
   "action": {
     "default_popup": "index.html",
     "default_icon": "hello_extensions.png"
-  }
+  },
+
+  "content_security_policy": "script-src 'self' https://developer.mozilla.org; object-src 'self'"
 }
   
   // "commands": {
