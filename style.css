@@ -1,0 +1,29 @@
+#title {
+    
+    font-style: italic;
+    color: rgb(47, 255, 252);
+}
+
+/* flex container for flex items */
+.messageContainer {
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 12%;
+    height: 70%;
+    
+}
+/* flex items */
+.column {
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* flex items */
+.data {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid blueviolet;
+    margin: 5px;
+    /* box-sizing: border-box; */
+}

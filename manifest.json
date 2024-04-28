@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "Hello Extensions",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "permissions": ["history"],
+  "background": {
+    "service_worker": "background.js"
+    },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "hello_extensions.png"
+  }
+}
+  
+  // "commands": {
+  //   "_execute_browser_action": {
+  //     "suggested_key": {
+  //       "default": "Ctrl+Shift+F",
+  //       "mac": "MacCtrl+Shift+F"
+  //     },
+  //     "description": "Opens hello.html"
+  //   }
+  // }
+
+
+// {
+//   "manifest_version": 3,
+//   "name": "My Extension",
+//   "version": "1.0.0",
+//   "permissions": ["history"],
+//   "action": {
+//     "default_popup": "index.html",
+//     "default_icon": "hello_extensions.png"
+//     },
+
+//   "description": "MDN Counter",
+//   "icons": {
+//     "48": "hello_extensions.png",
+//     "128": "hello_extensions.png"
+//   },
+
+//   "background": {
+//     "service_worker": "background.js"
+//   }
+// }
