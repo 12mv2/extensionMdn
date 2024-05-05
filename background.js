@@ -7,6 +7,7 @@ chrome.history.getVisits(
   }
 );
 
+
 // have tried replacing /chrome/ with /browser/
 // chrome.history.getVisits(
 //   {
